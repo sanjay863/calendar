@@ -1,0 +1,41 @@
+Cal__Container__root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  outline: none;
+  text-align: left; }
+  .Cal__Container__root .Cal__Container__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; }
+  .Cal__Container__root.Cal__Container__landscape {
+    flex-direction: row; }
+    .Cal__Container__root.Cal__Container__landscape .Cal__Container__wrapper {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px; }
+
+.Cal__Container__listWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+  flex-grow: 1; }
+.Cal__Day__root {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 14.28571%;
+  list-style: none;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none; }
